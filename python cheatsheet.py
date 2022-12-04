@@ -14,7 +14,7 @@ d.pop(), d.leftpop()
 
 # priority queue / heap queue
 import heapq
-l = list(arange(5))
+l = list(range(5))
 heap = heapq.heapify(l)
 heapq.heappush(heap, item)
 heapq.heappop(heap, item)
@@ -55,8 +55,8 @@ def fib(n):
 # partial
 from functools import partial
 # the following two are equivalent:
-y = f(x)
-y = partial(f, x)
+y = f(a, b)
+y = partial(f, b)(a)
 # this is useful for decorators, eg:
 @partial(jax.jit, static_argnums=1)
 
