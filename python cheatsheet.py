@@ -8,8 +8,8 @@ x.remove(9) # delete element by value
 # double-ended queue
 from collections import deque
 d = deque()
-d.append(), d.leftappend()
-d.pop(), d.leftpop()
+d.append(), d.appendleft()
+d.pop(), d.popleft()
 
 
 # priority queue / heap queue
