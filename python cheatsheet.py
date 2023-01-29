@@ -14,8 +14,8 @@ d.pop(), d.popleft()
 
 # priority queue / heap queue
 import heapq
-l = list(range(5))
-heap = heapq.heapify(l)
+heap = list(range(5))
+heapq.heapify(heap)
 heapq.heappush(heap, item)
 heapq.heappop(heap, item)
 
