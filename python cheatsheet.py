@@ -17,7 +17,7 @@ import heapq
 heap = list(range(5))
 heapq.heapify(heap)
 heapq.heappush(heap, item)
-heapq.heappop(heap, item)
+heapq.heappop(heap)
 
 
 # caching
