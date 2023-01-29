@@ -15,9 +15,10 @@ d.pop(), d.popleft()
 # priority queue / heap queue
 import heapq
 heap = list(range(5))
-heapq.heapify(heap)
+heapq.heapify(heap) # mutates the input!
 heapq.heappush(heap, item)
 heapq.heappop(heap)
+heap[0] # the smallest value
 
 
 # caching
